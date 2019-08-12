@@ -1,0 +1,39 @@
+body {
+    background-image: url("background.jpg");
+    background-color: rgb(15, 25, 41);
+    margin: 0;
+    padding: 0;
+
+} 
+p {
+    color: floralwhite;
+}     
+    
+#navtab {
+    margin-top: 40px;
+    color: floralwhite;
+}
+#socials {
+    margin-top: 30px;
+}
+button {
+    color: floralwhite;
+    background-color: rgb(15, 25, 41);
+    border: none;
+    
+    
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(15, 25, 41);
+    margin-top: 100px;
+       
+}
+section {
+    text-align: center;
+    background-color:rgb(15,25,41);
+    padding: 0;
+    margin: 0;
+}
