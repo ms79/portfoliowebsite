@@ -14,17 +14,19 @@
                 padding: 0;
 
             } 
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;      
-                
-            }
-            li {
+            p {
                 color: floralwhite;
-                font-family: Arial, Helvetica, sans-serif;
-                display: inline-block;
-                margin: 10px 20px;
+            }     
+                
+            #navtab {
+                margin-top: 40px;
+                color: floralwhite;
+            }
+
+            button {
+                color: floralwhite;
+                background-color: rgb(15, 25, 41);
+                border: none;
             }
             h1 {
                 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -40,44 +42,44 @@
                 padding: 0;
                 margin: 0;
             }
-            div1 {
-                color:floralwhite;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-            }
 
-            div2 {
-                color:rgb(255, 255, 255);
-                margin-top: 100px;
-
-            }
+            
 
         
         </style>
     </head>
     <body>
         <nav>
-            <ul>
-                <li>ABOUT</li>
-                <li>PROJECTS</li>
-                <li>FITNESS</li>
-            </ul>
+
         </nav>
         <header>
             <h1> MAX SHEN </h1>
         </header>
 
         <section>
-            <div1>
-                I'm a recent Math-CS grad from UCSD looking<br>
-                for a full-time position as a software developer.<br>
-                Feel free to contact me!<br>
+            <div>
+                <p>               
+                    I'm a recent Math-CS grad from UCSD looking<br>
+                    for a full-time position as a software developer.<br>
+                    Feel free to contact me!<br>
+                </p>
 
-            </div1>
-            
-            <div2>
+
+                <div id="navtab">
+                    <button id="about">ABOUT</button>
+                    <button id="resume">RESUME</button>
+                    <button id="projs">PROJECTS</button>
+                    <button id="fitness">FITNESS</button>
+                </div>
 
                 
-            </div2>
+                <div id="socials">
+                    <button id="fb">fb</button>
+                    <button id="ig">ig</button>
+                    <button id="lkdin">lin</button>
+
+                </div>
+            </div>
             
         
         </section>
