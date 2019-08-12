@@ -43,10 +43,17 @@
                 margin: 0;
             }
 
+         
             
 
         
         </style>
+        <script type="text/javascript">
+            function genericSocialShare(url){
+                window.open(url,'sharer','toolbar=0,status=0');
+                return true;
+            }
+        </script>
     </head>
     <body>
         <nav>
@@ -74,9 +81,15 @@
 
                 
                 <div id="socials">
-                    <button id="fb">fb</button>
-                    <button id="ig">ig</button>
-                    <button id="lkdin">lin</button>
+                    <a href="javascript:void(0)" onclick="javascript:genericSocialShare('https://www.facebook.com/max.20.shen')">
+                        <img src="icons/facebook-icon.png" width="75" height="75"></a>
+
+
+                    <a href="javascript:void(0)" onclick="javascript:genericSocialShare('https://www.instagram.com/mshen42/')">
+                        <img src="icons/ig-icon.png" width="75" height="75"></a>
+
+                    <a href="javascript:void(0)" onclick="javascript:genericSocialShare('https://www.linkedin.com/in/max-shen-175b71111/')">
+                        <img src="icons/linkedin-icon.png" width="75" height="75"></a>
 
                 </div>
             </div>
