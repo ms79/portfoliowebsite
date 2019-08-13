@@ -1,20 +1,21 @@
 body {
-    /*background-image: url("background.jpg");
-    background-size: 1920px 1080px;
-    background-repeat: no-repeat;*/
+    /*background-image: url("imgs/mounts1.png");*/
+    /*background-size: auto;*/
+    /*background-repeat: no-repeat;*/
     background-color: rgb(15, 25, 41);
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
 
 } 
-
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
     text-align: center;
     /*background-color: rgb(15, 25, 41);*/
-    margin-top: 200px;
+    /*margin-top: 200px;*/
        
 }
 
@@ -28,6 +29,31 @@ a {
     color: floralwhite;
 }
 
+#parallax-container {
+    display: block;
+    height: 900px;
+ }
+ 
+#parallax-container div {
+    
+    position: fixed;
+    top:0;
+    background-position: center !important;
+    background-color: aqua;
+    transform: translateY(0px);
+    height: 900px; 
+    width: 100%;
+
+
+    
+ }
+ 
+#content {
+    position: relative;
+ }
+img:hover {
+    opacity: .5;
+}
 .links {
     color: floralwhite;
     background-color: rgb(15, 25, 41);
@@ -58,4 +84,3 @@ section {
     margin-bottom: 500px;
 }
 
-#
