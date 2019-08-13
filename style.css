@@ -1,14 +1,41 @@
 body {
-    background-image: url("background.jpg");
+    /*background-image: url("background.jpg");
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;*/
     background-color: rgb(15, 25, 41);
     margin: 0;
     padding: 0;
 
 } 
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /*background-color: rgb(15, 25, 41);*/
+    margin-top: 200px;
+       
+}
+
 p {
     color: floralwhite;
-}     
     
+}    
+
+a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.links {
+    color: floralwhite;
+    background-color: rgb(15, 25, 41);
+    border: none;
+    border-radius: 12px;
+}
+
+
 #navtab {
     margin-top: 40px;
     color: floralwhite;
@@ -16,24 +43,19 @@ p {
 #socials {
     margin-top: 30px;
 }
-button {
-    color: floralwhite;
-    background-color: rgb(15, 25, 41);
-    border: none;
-    
-    
-}
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    background-color: rgb(15, 25, 41);
-    margin-top: 100px;
-       
-}
+
 section {
     text-align: center;
-    background-color:rgb(15,25,41);
+    /*background-color:rgb(15,25,41);*/
     padding: 0;
     margin: 0;
 }
+
+#about {
+
+    margin-top: 530px;
+    background-color: blue;
+    margin-bottom: 500px;
+}
+
+#
