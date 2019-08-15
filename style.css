@@ -21,6 +21,8 @@ h1 {
 
 p {
     color: floralwhite;
+    font-size: 16pt;
+    text-align: center;
     
 }    
 
@@ -36,38 +38,50 @@ a {
  }
  
 #parallax-container div {
-    
+    /* filter: blur(1px); */
     position: fixed;
     top:0;
     background-position: center !important;
-    background-color: aqua;
+    background-color: transparent;
     transform: translateY(0px);
     height: 900px; 
     width: 100%;  
  }
  
+#maintitle {
+
+    color: floralwhite;
+    margin-top: 430px;
+    text-align: center;
+    font-size: 60pt;
+    
+
+
+}
 #content {
     position: relative;
     background-color: #0a1729;
-    margin-top: 100px;
+    /* background-color: transparent; */
+    margin-top: 00px;
  }
 img:hover {
+    opacity: .75;
+}
+
+.links:hover {
     opacity: .5;
 }
 .links {
     color: floralwhite;
-    background-color: rgb(15, 25, 41);
+    font-size: 16pt;
+    background-color: transparent;
     border: none;
     border-radius: 12px;
+    
 }
 
-
-#navtab {
-    margin-top: 40px;
-    color: floralwhite;
-}
 #socials {
-    margin-top: 30px;
+    text-align: center;
 }
 
 section {
@@ -79,8 +93,9 @@ section {
 
 #about {
 
-    margin-top: 530px;
-    background-color: blue;
+    margin-top: 200px;
+    background-color: #0a1729;
     margin-bottom: 500px;
+    text-align: center;
 }
 
