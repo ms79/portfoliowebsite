@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
         <title>Max Shen</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="script.js"></script>
@@ -20,21 +19,30 @@
             <div style="background: url(imgs/mountbest1.png);"></div>
             <!-- <div style="background: url(imgs/sunsetmtnresized.png);"></div> -->
             <div id="maintitle">MAX SHEN<br>
-                    <button class="links",id="abouttab">ABOUT</button>
-                            
-                    <button class="links",id="resumetab">
-                        <a href="docs/Resume.pdf">RESUME</a>
+
+                    <a href="#about">
+                        <button class="links">ABOUT</button>
+                    </a>
+            
+                    <button class="links">
+                        <a href="docs/Resume.pdf" target="_blank">RESUME</a>
                     </button>
     
-                    <button class="links"id="projstab">PROJECTS</button>
-    
-                    <button class="links"id="fitnesstab">CONTACT</button>
+                    <a href="#projects">
+                    <button class="links">PROJECTS</button>
+                    </a>
+
+                    <a href="#about">
+                        <button class="links">CONTACT</button>
+                    </a>
             </div>
         </div>
 
         <div id="content">
 
+            <a name="about">
             <div id="about">
+                <br>
                 <h1>ABOUT ME</h1>
 
                 <p>               
@@ -44,23 +52,53 @@
                 </p>
 
                 <div id="socials">
-                    <a href="mailto:john@example.com">EMAIL LINK</a>
-                    <a href="javascript:void(0)" onclick="javascript:window.open('https://www.linkedin.com/in/max-shen-175b71111/')">
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=mshen.ivl@gmail.com&tf=1" target="_blank">
+                        <img src="icons/email-icon.png" width="75" height="75"></a>
+                    <a href="javascript:void(0)" onclick="javascript:window.open('https://www.linkedin.com/in/max-shen-175b71111/')" target="_blank">
                         <img src="icons/linkedin-icon.png" width="75" height="75"></a>
-                    <a href="javascript:void(0)" onclick="javascript:window.open('https://github.com/ms79')">
+                    <a href="javascript:void(0)" onclick="javascript:window.open('https://github.com/ms79')" target="_blank">
                         <img src="icons/github-icon.png" width="75" height="75"></a>
         
-                        <a href="javascript:void(0)" onclick="javascript:window.open('https://www.instagram.com/mshen42/')">
-                        <img src="icons/ig-icon1.png" width="75" height="75"></a>
           
                 </div>
+                <br>
             </div>            
 
-
+            <a name="projects">
             <div id="projects">
                 <h1>PROJECTS</h1>
 
-                <p>PROJECTS will be added soon!</p>
+
+                <div class="container" >
+                    <div class="projectimg">
+                        <a href="https://github.com/ms79/Twitter-Sentiment-Analysis-Bot" target="_blank">
+                            <img src="imgs/twitterresize.png" alt="Twitter-Sentiment-Analysis-Bot"></a>
+                    
+                    </div>
+                    <div class="projtext">
+                            <a href="https://github.com/ms79/Twitter-Sentiment-Analysis-Bot" target="_blank">
+                                <h2>Twitter Sentiment Analysis Bot</h2></a>
+                                Python script designed to analyze the opinions towards a certain topic 
+                                on Twitter. Utilizes the VADER Sentiment Library. 
+
+                    </div>
+
+                </div>
+
+                <div class="container" >
+                        <div class="projectimg">
+                            <a href="https://ms79.github.io/WhereShouldIClimb/" target="_blank">
+                                <img id="rockimg" src="imgs/rockclimbresized.png"  alt="WhereShouldIClimb"></a>
+                        
+                        </div>
+                        <div class="projtext">
+                            <a href="https://github.com/ms79/Twitter-Sentiment-Analysis-Bot" target="_blank">
+                                <h2>WhereShouldIClimb?</h2></a>
+                            Website designed to locate the sweetest climbing spots near you! Also features weather information and a brief summary of the climbing conditions. More information can be found in the github.
+    
+                        </div>
+    
+                    </div>
             </div>
         </div>
 

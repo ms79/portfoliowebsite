@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+    color: floralwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
     /*background-image: url("imgs/mounts1.png");*/
     /*background-size: auto;*/
@@ -93,9 +99,27 @@ section {
 
 #about {
 
-    margin-top: 200px;
-    background-color: #0a1729;
-    margin-bottom: 500px;
+    margin-top: 200px;  
+    margin-bottom: 300px;
     text-align: center;
 }
 
+.container {
+    margin-left: 25%;
+    margin-right: 25%;
+    height:200px;
+}
+
+.projectimg {
+    float: left;
+    margin-right: 15px;
+}
+
+.projtext {
+    text-align: left;
+    font-size: 16pt;
+}
+
+#rockimg{
+    border-radius: 12px;
+}
